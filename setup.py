@@ -34,7 +34,7 @@ def find_version(*parts):
 
 
 setup(
-    name='django-fluent-pages',
+    name='sigmacms-fluent-pages',
     version=find_version('fluent_pages', '__init__.py'),
     license='Apache 2.0',
 
