@@ -53,7 +53,7 @@ setup(
     ],
     extras_require={
         'flatpage': ['django-wysiwyg>=0.7.0'],
-        'fluentpage': ['django-fluent-contents>=1.0'],
+        'fluentpage': ['django-fluent-contents==1.0.2'], # django-fluent-contents is pinned for now.
         'redirectnode': ['django-any-urlfield>=2.1'],  # Needs Pickle support for translated new_url field.
     },
     description='A flexible, scalable CMS with custom node types, and flexible block content.',
